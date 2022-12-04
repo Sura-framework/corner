@@ -1,12 +1,12 @@
 <?php
-namespace Tephida\Corner\Tests;
+namespace Sura\Corner\Tests;
 
-use Tephida\Corner\CornerInterface;
+use Sura\Corner\CornerInterface;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Class BasicTest
- * @package Tephida\Corner\Tests
+ * @package Sura\Corner\Tests
  */
 class BasicTest extends TestCase
 {
@@ -17,7 +17,7 @@ class BasicTest extends TestCase
         } catch (CornerInterface $ex) {
             $this->assertSame('test', $ex->getMessage());
             $this->assertNotEmpty($ex->getHelpfulMessage());
-            $this->assertSame('https://github.com/tephida/corner', $ex->getSupportLink());
+            $this->assertSame('https://github.com/Sura/corner', $ex->getSupportLink());
         }
     }
 
@@ -28,7 +28,7 @@ class BasicTest extends TestCase
         } catch (CornerInterface $ex) {
             $this->assertSame('test', $ex->getMessage());
             $this->assertNotEmpty($ex->getHelpfulMessage());
-            $this->assertSame('https://github.com/tephida/corner', $ex->getSupportLink());
+            $this->assertSame('https://github.com/Sura/corner', $ex->getSupportLink());
         }
     }
 

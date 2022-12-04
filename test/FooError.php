@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
-namespace Tephida\Corner\Tests;
+namespace Sura\Corner\Tests;
 
-use Tephida\Corner\Error;
+use Sura\Corner\Error;
 
 /**
  * Class FooError
- * @package Tephida\Corner\Tests
+ * @package Sura\Corner\Tests
  */
 class FooError extends Error
 {
@@ -14,6 +14,6 @@ class FooError extends Error
     {
         parent::__construct($message, $code, $previous);
         $this->helpfulMessage = "This is an example of the Error class";
-        $this->supportLink = "https://github.com/tephida/corner";
+        $this->supportLink = "https://github.com/Sura/corner";
     }
 }

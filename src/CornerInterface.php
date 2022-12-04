@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Corner;
+namespace Sura\Corner;
 
 /**
  * Interface CornerInterface
- * @package Tephida\Corner
+ * @package Sura\Corner
  */
 interface CornerInterface extends \Throwable
 {

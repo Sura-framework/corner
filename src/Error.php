@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Corner;
+namespace Sura\Corner;
 
 /**
  * Class Error
- * @package Tephida\Corner
+ * @package Sura\Corner
  */
 class Error extends \Error implements CornerInterface
 {

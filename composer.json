@@ -1,5 +1,5 @@
 {
-  "name": "tephida/corner",
+  "name": "sura/corner",
   "description": "Generic PHP Exceptions and Errors, made user-friendly.",
   "license": "MIT",
   "config": {
@@ -7,12 +7,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Tephida\\Corner\\": "src/"
+      "Sura\\Corner\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Tephida\\Corner\\Tests\\": "test/"
+      "Sura\\Corner\\Tests\\": "test/"
     }
   },
   "require": {

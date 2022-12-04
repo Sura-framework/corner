@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tephida\Corner;
+namespace Sura\Corner;
 
 /**
  * Trait CornerTrait
- * @package Tephida\Corner
+ * @package Sura\Corner
  */
 trait CornerTrait
 {

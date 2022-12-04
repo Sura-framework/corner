@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
-namespace Tephida\Corner\Tests;
+namespace Sura\Corner\Tests;
 
-use Tephida\Corner\Exception;
+use Sura\Corner\Exception;
 
 /**
  * Class FooException
- * @package Tephida\Corner\Tests
+ * @package Sura\Corner\Tests
  */
 class FooException extends Exception
 {
@@ -14,6 +14,6 @@ class FooException extends Exception
     {
         parent::__construct($message, $code, $previous);
         $this->helpfulMessage = "This is an example of the Exception class";
-        $this->supportLink = "https://github.com/tephida/corner";
+        $this->supportLink = "https://github.com/Sura/corner";
     }
 }
