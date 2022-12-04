@@ -6,7 +6,7 @@
 [![License](https://poser.pugx.org/sura/corner/license)](https://packagist.org/packages/sura/corner)
 [![Downloads](https://img.shields.io/packagist/dt/sura/corner.svg)](https://packagist.org/packages/sura/corner)
 
-* Version 1.x: Requires PHP 8.0 or newer.
+* Version 1.x: Requires PHP 8.1 or newer.
 
 ## Motivation 
 
