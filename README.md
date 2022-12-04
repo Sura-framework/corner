@@ -6,9 +6,6 @@
 [![License](https://poser.pugx.org/sura/corner/license)](https://packagist.org/packages/sura/corner)
 [![Downloads](https://img.shields.io/packagist/dt/sura/corner.svg)](https://packagist.org/packages/sura/corner)
 
-PHP Exceptions and Errors designed to prevent your users from sharp corners.
-Inspired by [Rust's helpful error messages](https://twitter.com/acfoltzer/status/1074813646625169408).
-
 * Version 1.x: Requires PHP 8.0 or newer.
 
 ## Motivation 
